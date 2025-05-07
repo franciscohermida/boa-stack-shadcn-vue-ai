@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+*.todo
+.DS_store
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+*.local
+.vscode/launch.json
+
+.data
