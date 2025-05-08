@@ -70,3 +70,11 @@ Ensure you have `pnpm` and `tsx` installed. The scripts can be run from the root
     ```
 
 
+## TODO
+
+- [ ] local project mcp server/s to provide context to AI when manually editing the outputed files.
+- [ ] use https://ui.nuxt.com/llms.txt instead of custom logic finding section in llms-full.txt
+- [ ] in the processing array list all features of each nuxt ui component and pick only the ones you want to implement
+- [ ] add existing component to context so it can apply modifications (e.g. adding new features)
+- [ ] track which features were implemented to guide AI when to add or remove a feature
+- [ ] expand item configuration to include properties like output component name, in order to quick test isolated feature implementation (e.g. ButtonLoading.vue only implements loading but is based on ui-iconify/button)
